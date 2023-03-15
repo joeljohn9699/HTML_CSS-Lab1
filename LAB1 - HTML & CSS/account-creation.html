@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Create Gmail Account
+    </title>
+    <style>
+        * {
+                margin: 0;
+                padding: 0;
+            }
+        .video {
+            position: fixed;
+        }
+
+        .signup {
+            color: rgb(0, 0, 0);
+            position: absolute;
+            top: 25%;
+            left: 35%;
+            padding: 45px;
+            line-height: 55px;
+            border: 1px solid white;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: xx-large;
+        }
+
+        input {
+            height: 30px;
+            width: 300px;
+            padding-left: 10px;
+            border-radius: 3px;
+            border: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        input:focus {
+            background-color: steelblue;
+            opacity: 0.35;
+        }
+
+        button{
+            color: white;
+            background-color: blueviolet;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        button:hover {
+            background-color: rgb(119, 43, 226);
+            cursor: pointer;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <video autoplay loop class="video" src="Background.mp4"></video>
+
+    <div class="signup">
+
+        <form action="#">
+
+            <h2> Create Gmail Account </h2>
+
+            <input type="text" name="full_name" id="full_name" placeholder="Full Name"> <br>
+
+            <input type="number" name="contact_number" id="contact_number" placeholder="Contact Number"> <br>
+
+            <input type="email" name="email_id" id="email_id" placeholder="Email ID"> <br>
+
+            <button>Reset</button>
+
+            <button>Submit</button> <br>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
